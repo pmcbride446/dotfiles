@@ -50,12 +50,31 @@ set number
 
 " set cursor and gutter colors
 set cursorline
+set cursorcolumn
 set lazyredraw " hack to let curosrline bg not redraw every scroll
 
 highlight LineNr ctermfg=Gray
-highlight CursorLine cterm=none ctermbg=240
-highlight CursorLineNr ctermfg=Gray ctermbg=240
+highlight CursorLine cterm=none ctermbg=237
+highlight CursorColumn cterm=none ctermbg=237
+highlight CursorLineNr ctermfg=Gray ctermbg=237
 highlight SignColumn ctermbg=none
+
+augroup CursorLine
+    au!
+    au VimEnter * setlocal cursorline
+    au WinEnter * setlocal cursorline
+    au BufWinEnter * setlocal cursorline
+    au WinLeave * setlocal nocursorline
+augroup END
+
+" hide vertical cursor when focus changes
+augroup CursorColumn
+    au!
+    au VimEnter * setlocal cursorcolumn
+    au WinEnter * setlocal cursorcolumn
+    au BufWinEnter * setlocal cursorcolumn
+    au WinLeave * setlocal nocursorcolumn
+augroup END
 
 set t_Co=16
 
