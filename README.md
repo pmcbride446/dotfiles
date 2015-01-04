@@ -31,6 +31,15 @@ export KEY=value
 
 If using homebrew on Mac OSX:
 
+First install brewdler..
+
 ```shell
-brew bundle ~/dotfiles/Brewfile
+gem install brewdler
+```
+
+Then run brewdle install in the same directory as your `Brewfile`
+
+```shell
+~/dotfiles
+brewdle install
 ```
