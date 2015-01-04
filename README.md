@@ -40,6 +40,6 @@ gem install brewdler
 Then run brewdle install in the same directory as your `Brewfile`
 
 ```shell
-~/dotfiles
+cd ~/dotfiles
 brewdle install
 ```
