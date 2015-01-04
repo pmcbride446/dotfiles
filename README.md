@@ -31,9 +31,10 @@ export KEY=value
 
 If using homebrew on Mac OSX:
 
-First install brewdler..
+First update Homebrew install Brewdler..
 
 ```shell
+brew update
 gem install brewdler
 ```
 
