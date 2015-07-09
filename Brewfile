@@ -18,9 +18,6 @@ brew 'tree'
 # Install languages and databases
 brew 'node'
 brew 'python'
-brew 'mongodb'
-brew 'redis'
-brew 'memcached'
 
 # Remove outdated versions from the cellar
 cleanup
