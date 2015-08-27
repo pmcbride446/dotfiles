@@ -28,3 +28,6 @@ if type "direnv" &> /dev/null; then
   eval "$(direnv hook bash)"
 fi
 
+function vudo() {  
+  eval "vagrant ssh -c \"cd /vagrant && $@\""
+}
