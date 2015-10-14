@@ -16,6 +16,7 @@
 ehthumbs.db
 Thumbs.db
 .cache
+.idea
 
 # VIM files
 [._]*.s[a-w][a-z]

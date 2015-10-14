@@ -34,7 +34,7 @@
   remote = origin
   merge = refs/heads/master
 [core]
-  excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [user]
 	name = Paul McBride
 	email = paul@minus40.co
