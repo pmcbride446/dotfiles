@@ -1,11 +1,11 @@
 # Set GOPATH
 export GOPATH=$HOME/Go
 
-# Append Homebrew path before system bin
-export PATH=/usr/local/bin:$PATH:$GOPATH/bin
-
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
 
 # Add bin to PATH
 export PATH=$HOME/bin:$PATH
+
+# Add Homebrew to path
+export PATH=/usr/local/sbin:$PATH

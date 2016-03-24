@@ -1,2 +1,5 @@
 # Load bashrc in Mac Environment
 [[ -s "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
+
+export NVM_DIR="/Users/Work/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
