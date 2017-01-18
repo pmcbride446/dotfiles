@@ -1,1 +1,5 @@
+# Set editor
 export EDITOR='atom'
+
+# Set nvm directory
+export NVM_DIR=~/.nvm

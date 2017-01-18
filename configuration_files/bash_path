@@ -1,11 +1,17 @@
-# Set GOPATH
-export GOPATH=$HOME/Go
-
-# Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
-
 # Add bin to PATH
 export PATH=$HOME/bin:$PATH
 
 # Add Homebrew to path
 export PATH=/usr/local/sbin:$PATH
+
+# Add Composer to path
+export PATH=~/.composer/vendor/bin/:$PATH
+
+# Add Python to path
+export PATH=~/Library/Python/2.7/bin:$PATH
+
+# Add rbenv to path
+export PATH=~/.rbenv/bin:$PATH
+export PATH=~/.rbenv/shims:$PATH
+
+eval "$(rbenv init -)"
