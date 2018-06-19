@@ -14,4 +14,6 @@ export PATH=~/Library/Python/2.7/bin:$PATH
 export PATH=~/.rbenv/bin:$PATH
 export PATH=~/.rbenv/shims:$PATH
 
-eval "$(rbenv init -)"
+# Add Go to path
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
